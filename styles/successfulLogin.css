@@ -1,6 +1,6 @@
-<!--
+/*body,h1,p,h3*/
 /* Apply a consistent style reset */
-body, h1, form, label, input, button {
+body, h1, p, h3 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -23,7 +23,7 @@ body, html{
 
 /* Set a single color background */
 body {
-    background-color: #1d4466; /* Light blue background */
+    background-image: linear-gradient(to right, rgb(51, 30, 5),rgb(170, 113, 8), rgb(224, 183, 130)) ; /* brown to beigt background */
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
@@ -32,41 +32,26 @@ body {
     margin: 0;
 }
 
-/* Style the container */
-.login-container {
-    background: rgb(131, 15, 15);
+/* Style the container word CONGRATULATIONS only */
+.success-container {
+    border: 2px solid white;
+    display:flex;
+    flex-direction: column;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
     text-align: center;
-    width: 300px;
+    
 }
 
 /* Style the heading */
 h1 {
     margin-bottom: 20px;
     font-size: 24px;
-    color: #333;
+    color: #d37509;
 }
 
-/* Style the form elements */
-form {
-    display: flex;
-    flex-direction: column;
-}
 
-label {
-    margin: 10px 0 5px;
-    font-size: 14px;
-    color: #555;
-}
-
-input {
-    padding: 10px;
-    font-size: 14px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
 
 button {
     margin-top: 20px;
