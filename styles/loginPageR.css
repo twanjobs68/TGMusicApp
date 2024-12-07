@@ -8,8 +8,14 @@ body, h1, form, label, input, button {
 /* fullbackground colror*/
 body {
    
-   background-color: rgb(150, 97, 199);
-   background-image: ;
+   /* background-color: rgb(87, 40, 131); */
+
+    background-image: url("/Sba307Repo/images/music_notes_background_1706.jpg");
+
+    background-position: center;
+    background-size: cover;
+        background-repeat: no-repeat;
+    background-attachment: fixed;
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
@@ -19,10 +25,21 @@ body {
     padding: 20px; /* researched to give smaller screens padding per device  */
 }
 
-/*login Page Header styling*/
+/* .imageBackground{
+    background-image: url("/Sba307Repo/images/grey-background-music-notes.png");
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+        background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    width:100vw; 
+}
+
+/*login Page Header styling - TG's Music Selector*/
 .loginHeading{
     display:flex;
-    border:3px dashed rgb(19, 18, 16);
+    border:5px dashed rgb(19, 18, 16);
     background-color: orange;
     border-radius: 15px;
     width: 12em;
@@ -30,24 +47,28 @@ body {
     justify-content: center;
     align-items:center;
     font-size: 20px;
+    /* font-weight: 500; */
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 /* Login Contain styling */
 .login-container {
-    /* background: white; */
+    background: white;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
     width: 100%; /* full width of container on devices as Default*/
     max-width: 400px; /*max width for large screen devices */
+    
 }
 
-/* Login user id and password heading styling */
+/* Login user id and password heading styling(for the word LOGIN only */
 h1 {
+    position:relative;
+    left: 2em;
     margin-bottom: 20px;
-    font-size: 24px;
-    /* color: #333; */
+    font-size: 36px;
+    color: #e2a11f;
 }
 
 /* Form element styling */
@@ -55,27 +76,31 @@ form {
     display: flex;
     flex-direction: column;
 }
-
+/*for the label Username and Password only*/
 label {
+    position:relative;
+    left: 2em;
     margin: 10px 0 5px;
-    font-size: 14px;
-    /* color: #555; */
+    font-size: 28px;
+    color: #e2a11f;
+    font-weight: 900;
 }
 
 input {
     padding: 10px;
     font-size: 14px;
-    border: 3px solid #197740;
+    border: 4px solid #197740;
     border-radius: 4px;
-    width: 100%; /* Inputs spans to full width of div*/
+    width: 100%; /* Input will spans to full width of div*/
 }
 
 button {
     margin-top: 20px;
     padding: 10px;
     font-size: 16px;
-    /* color: white; */
-    /*background-color: #007bff;  Blue button */
+    color: white;
+    /*background-color: #007bff; /* Blue button */
+    background-color: #e2a11f; /* orange background submit button*/
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -83,39 +108,39 @@ button {
 }
 
 button:hover {
-   /* background-color: #0056b3;  Darker blue on hover */
+   background-color: #0056b3;  /*Darker blue on hover*/
 }
 
 /* Adjustments for smaller screen and Responsiveness */
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
     body {
         padding: 10px;
     }
 
     h1 {
         font-size: 20px; /* Slightly smaller font size */
-    }
+  /*  }
 
     label {
         font-size: 13px; /* a little smaller font size */
-    }
+  /*  }
 
-    input, button {
+  /*  input, button {
         font-size: 14px; /* Adjust input and button font size */
-    }
-}
+  /*  }
+}*/
 
-@media (max-width: 480px) {
+/*@media (max-width: 480px) {
     h1 {
         font-size: 18px; /* more smaller font size for smaller screens than previous */
-    }
+   /* }
 
     .login-container {
         padding: 15px; /* Reduce padding */
-    }
+ /*  }
 
     input, button {
         font-size: 12px; /* Smaller text size */
-        padding: 8px; /* Adjust padding */
-    }
+   /*    padding: 8px; /* Adjust padding */
+  /*  }
 }

@@ -6,9 +6,24 @@ body, h1, form, label, input, button {
     box-sizing: border-box;
 }
 
+body, html{
+    height:100vh;
+    margin:0;
+}
+/* .imageBackground{
+    background-image: url("/Sba307Repo/images/grey-background-music-notes.png");
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+        background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    width:100vw; 
+}*/
+
 /* Set a single color background */
 body {
-    background-color: #f0f8ff; /* Light blue background */
+    background-color: #1d4466; /* Light blue background */
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
@@ -19,7 +34,7 @@ body {
 
 /* Style the container */
 .login-container {
-    background: rgb(211, 185, 185);
+    background: rgb(131, 15, 15);
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
