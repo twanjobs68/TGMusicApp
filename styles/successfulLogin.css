@@ -38,27 +38,37 @@ body {
     display:flex;
     flex-direction: column;
     padding: 20px;
-    border-radius: 8px;
-    
+    border-radius: 8px;    
     text-align: center;
     
 }
 
-/* Style the heading */
+/* Style the Congratulations heading */
 h1 {
     margin-bottom: 20px;
     font-size: 24px;
-    color: #d37509;
+    color: #533007;
 }
 
+p{
+    color: rgb(77, 42, 10);
+    font-weight:600
+}
 
+.success-logout{
+    background-color:rgb(211, 175, 120);
+}
+.success-logout:hover{
+    
+    background-color:#4e2f08;
+}
 
 button {
     margin-top: 20px;
     padding: 10px;
     font-size: 16px;
     color: white;
-    background-color: #007bff; /* Blue button */
+    background-color: #bfc9d3; /* Blue button */
     border: none;
     border-radius: 4px;
     cursor: pointer;
