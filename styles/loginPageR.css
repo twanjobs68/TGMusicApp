@@ -25,20 +25,9 @@ body {
     padding: 20px; /*researched to give smaller screens padding per device  */
 }
 
-/* .imageBackground{
-    background-image: url("/Sba307Repo/images/grey-background-music-notes.png");
-    height:100vh;
-    background-position: center;
-    background-size: cover;
-     background-repeat: no-repeat;
-    background-attachment: fixed;
-    
-    width:100vw; 
-}
-
 /*login Page Header styling - TG's Music App*/
 .loginbackContainer{
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 250px;
     height: 447px;
     border-radius:5px;
@@ -100,7 +89,7 @@ input {
     font-size: 14px;
     border: 4px solid #3a2b03d0;
     border-radius: 4px;
-    width: 100%; /* Input will spans to full width of div*/
+    width: 100%; /* Input will span to full width of div*/
 }
 
 button {
@@ -108,12 +97,12 @@ button {
     padding: 10px;
     font-size: 16px;
     color: white;
-    /*background-color: #007bff; /* Blue button */
+    
     background-color: #e2a11f; /* orange background submit button*/
     border: 1px solid #3a2b03d0;
     border-radius: 4px;
     cursor: pointer;
-    width: 100%; /* Make button will take up full width of span */
+    width: 100%; /* Make button take up full width of span */
 }
 
 button:hover {
