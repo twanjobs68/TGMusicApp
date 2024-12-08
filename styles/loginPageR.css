@@ -37,11 +37,19 @@ body {
 }
 
 /*login Page Header styling - TG's Music App*/
+.loginbackContainer{
+    border: 2px solid black;
+    width: 250px;
+    height: 447px;
+    border-radius:5px;
+    display:flex;
+    background-color: white;
+}
 .loginHeading{
    
     border:5px dashed rgb(19, 18, 16);
     background-color: orange;
-    border-radius: 15px;
+    border-radius: 5px;
     display:flex;
     width: 12em;
     height: 5em;
@@ -52,7 +60,7 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 /* Login Contain styling */
-.login-container {
+.login-container2 {
     background: white;
     padding: 20px;
     border-radius: 8px;
