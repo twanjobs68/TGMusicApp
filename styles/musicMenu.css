@@ -101,7 +101,7 @@ h1{
   .navAndLog-container{
     border: 5px solid black;
     border-radius:6px;
-    height:7em;
+    height:8.1em;
     width:35em;
     position:relative;
     left:30em;
@@ -110,8 +110,10 @@ h1{
   /* change font size of login characters*/
   .logOff{
     font-size: 22px;
-    width:4em;
-    height:4em;
+    position:relative;
+    left:140px;
+    /* width:4em;
+    height:.05em; */
     
   }
 
