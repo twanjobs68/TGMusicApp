@@ -1,5 +1,5 @@
 READ ME
-Project Title – TG’s Music App
+Project Title ï¿½ TGï¿½s Music App
 Description: This application allows the user to select a genre of music from a drop downlist and be provided with several predetermined songs from that genre. 
 Table of contents
 1.Login Page
@@ -21,4 +21,4 @@ The developer is aware of the following issues and is working to find solutions:
 2.  Video Audio on musicMenu.html page does not play
 3. Auto sizing for overflow of text in comment section on pages with comment section needs to be addressed(rNb.html, jazz.html,gospel.html)
 
-
+GitHub Link:https://github.com/twanjobs68/TGMusicApp
