@@ -122,16 +122,19 @@ h1{
 
   .musicNote{
     margin-top:195px;
-    padding-left:0px;
+    /* margin-left:px; */
+    padding-left:5px;
     border:2px solid black;
-    height:40em;
-    width:5em;
+    background-color: #e9d495;
+    /* height:25em; */
+    width:35.1em;
+    position:relative;
     
   }
 
   iframe{
     /* margin-right:75px; */
-    height:50%;
+    height:100%;
     width:550px;;
   
     
