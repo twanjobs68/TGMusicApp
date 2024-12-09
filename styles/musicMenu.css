@@ -120,4 +120,19 @@ h1{
     background-color: tan;
   }
 
-  img
+  .musicNote{
+    margin-top:195px;
+    padding-left:0px;
+    border:2px solid black;
+    height:40em;
+    width:5em;
+    
+  }
+
+  iframe{
+    /* margin-right:75px; */
+    height:50%;
+    width:550px;;
+  
+    
+  }
