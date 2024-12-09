@@ -1,6 +1,6 @@
 # TGMusicApp
 
-Project Title  TGs Music App
+Project Title: TGs Music App
 Description: This application allows the user to select a genre of music from a drop downlist and be provided with several predetermined songs from that genre. 
 Table of contents
 1.Login Page
