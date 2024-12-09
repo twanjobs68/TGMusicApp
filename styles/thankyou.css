@@ -35,14 +35,14 @@ body{
     background-color: orange;
     border-radius: 5px;
     display:flex;
-    width: 12em;
-    height: 5em;
+    width: 10em;
+    height: 2em;
     justify-content: center;
     align-items:center;
-    font-size: 20px;
+    font-size: 45px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     position:relative;
-    left:30em;
+    left:13em;
 }
 /* Login Container styling */
 /*.login-container2 {
@@ -54,4 +54,59 @@ body{
     width: 100%; /* full width of container on devices as Default*/
    /* max-width: 400px; max width for large screen devices
     
+/*}*/
+
+h1{
+    margin-left:8.5em;;
 }
+
+.moreMusicNPic-container{
+    border: 8px dashed rgba(80, 38, 4, 0.836);
+    border-radius: 4px;
+    width: 30em;
+    display:flex;
+    padding: 10px;
+    margin:5px;
+    align-items:center;
+    position:relative;
+    left:35em;
+    
+}
+.moreMusicText{
+    
+    border: 3px solid rgb(59, 33, 3);
+    border-radius:8px;
+}
+
+.musicNotePic{
+    padding:10px;
+    margin-left:5px;
+    border: 2px solid rgb(238, 226, 226);
+    border-radius: 5px;
+    background-color: rgb(226, 222, 222);;
+}
+
+.moreMusicText:hover{
+    background-color: burlywood;
+    color: chocolate;
+
+}
+
+.logOff{
+background-color:bisque;
+width:5em;;
+}
+
+.logOff:hover {
+    background-color:rgb(150, 88, 13);
+
+}
+
+.topPage{
+    background-color:bisque;
+    width:5em;;
+    }
+    
+    .topPage:hover {
+        background-color:rgb(150, 88, 13);
+    }
