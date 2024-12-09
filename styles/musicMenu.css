@@ -112,11 +112,12 @@ h1{
     font-size: 22px;
     position:relative;
     left:140px;
-    /* width:4em;
-    height:.05em; */
+   
     
   }
-
+/*added hover color for Log off button*/
   .logOff:hover{
     background-color: tan;
   }
+
+  img
