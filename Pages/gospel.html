@@ -1,1 +1,239 @@
-<h3><a href="/Sba307Repo/Pages/musicMenu.html" target="_blank">SELECT MORE GENRE</a></h3>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOSPEL Songs</title>
+
+    <style>
+        /* Internal Styling using the Style element in the head section for this component*/
+        body {
+            background-color: rgb(219, 179, 48);
+        }
+
+
+        .tgHeading-container {
+            display: flex;
+            justify-content: center;
+            margin-left: 12em;
+            align-items: center;
+
+        }
+        gospelMusicTable, caption{
+            border: 2px solid beige;
+            width:150px;
+            background-color:rgb(218, 209, 88);
+            border-radius: 5px;
+            /* padding-top:15px; */
+            margin-left:15em;
+            
+
+        }
+        .moreMusic {
+            border: 2px solid black;
+            width: 15rem;
+            height: 4rem;
+            display: flex;
+            justify-content: center;
+            margin-left: 41em;
+
+            border-radius: 8px;
+            background-color: bisque;
+
+        }
+
+        .moreMusic:hover {
+
+            background-color: rgb(192, 130, 36);
+        }
+
+        img {
+
+            border: 2px solid white;
+            border-radius: 8px;
+            margin-left: 10px;
+            position: relative;
+            left: 28em;
+            bottom: 4em;
+
+
+        }
+
+        .gospelMusicTable-container {
+            border: 5px solid saddlebrown;
+            height: 400px;
+            width: 50em;
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding:15px;
+            margin-left: 385px;
+        }
+
+        td {
+            padding: 20px;
+            border: 1px solid whitesmoke;
+        }
+
+        h4 {
+            margin-left: 25em;
+        }
+
+
+        form {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        input{
+            background-color: rgb(66, 52, 6);
+            color:white;
+        }
+        .logOff{
+background-color:bisque;
+width:5em;;
+}
+
+.logOff:hover {
+    background-color:rgb(150, 88, 13);
+
+}
+
+.topPage{
+    background-color:bisque;
+    width:5em;;
+    }
+    
+.topPage:hover {
+        background-color:rgb(150, 88, 13);
+    } 
+    </style>
+</head>
+
+<body>
+    <div class="topNbtm">
+        <p id="top"></p>
+        <br>
+       <strong> <a href="#bottom">Bottom</a></strong>
+    </div>
+    <br>
+    
+    <div class="tgHeading-container">
+        <!--DECORATE BODY AND DROP DOWN BOXES and add images to top of page-->
+        
+        <h1 style="border:3px solid black; border-radius:8px; color:white; background-color:rgb(61, 32, 4);">TG's Music
+            App</h1><br>
+        <img src="/Sba307Repo/images/One_music_note.png" alt="No Phot Available">
+    </div>
+    <hr>
+
+    <!-- <div class="moreMusic">
+        <h3><a href="/Sba307Repo/Pages/musicMenu.html" target="_blank">SELECT MORE GENRE</a></h3>
+    </div>
+    <br>
+    <hr> -->
+
+    <div class="gospelMusicTable-container">
+        <!-- Table created to hold Jazz songs-->
+        <table>
+            <caption>
+                <STRONG> GOSPEL SONGS</STRONG>
+            </caption>
+            <br>
+            <thead>
+                <tr>
+                    <th>SONG</th>
+                    <th>ARTIST</th>
+                    <th>RELEASE YEAR</th>
+                    <th>CLASS</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>You’ll Never Walk Alone </td>
+                    <td>Dave Barnes</td>
+                    <td>2004</td>
+                    <td>Vocal</td>
+
+
+                </tr>
+                <tr>
+                    <td>How Great is Our God </td>
+                    <td>Chris Tomlin</td>
+                    <td>2004</td>
+                    <td>Vocal</td>
+                    
+                </tr>
+                <tr>
+                    <td>Beautiful Day</td>
+                    <td>Jamie Grace</td>
+                    <td>2010</td>
+                    <td>Vocal</td>
+                </tr>
+                <tr>
+                    <td>I found Love</td>
+                    <td>BeBe Winans</td>
+                    <td>1998</td>
+                    <td>Vocals</td>
+                </tr>
+                <tr>
+                    <td>I Believe In You and Me</td>
+                    <td>Whitney Houston</td>
+                    <td>1996</td>
+                    <td>Vocals</td>
+                </tr>
+                
+            </tbody>
+            <tfoot>
+                <!-- <tr>
+                    <td>Vocals</td>
+                    <td> Instrumental</td>
+                    <td> Instrumental</td>
+                    <td>Vocals</td>
+
+                </tr>
+            </tfoot> -->
+        </table>
+    </div>
+    <br>
+
+    <hr>
+
+    <div class="moreMusic">
+        <h3><a href="/Sba307Repo/Pages/musicMenu.html" target="_blank">SELECT MORE GENRE</a></h3>
+    </div>
+    <br>
+    <hr>
+    <!--comment form-->
+    <!--created for user to enter their opinion about app-->
+    <div class="commentForm-container">
+
+        <h4>Please take a minute to leave short comment or suggestion about this site below. We greatly appreciate it!!</h4>
+        <form action="/Sba307Repo/Pages/thankyou.html">
+            <!-- <label for="textInput">Enter Text:</label> -->
+            <!-- <input type="text" id="textInput" placeholder="Type here..."> -->
+            <textarea cols="50" rows="10" name="message"></textarea>
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+    <br>
+    <br>
+    <div class="logOff" style="margin:10px;">
+        <strong><a href="/Sba307Repo/Pages/loginPage.html" target="_blank">LOGOFF </a><br>
+
+
+    </div>
+    <div class="topPage" style="margin:10px;">
+
+
+        <a href="#top">Top</a></strong>
+    </div>
+    <p id="bottom"></p>
+
+</body>
+
+</html>

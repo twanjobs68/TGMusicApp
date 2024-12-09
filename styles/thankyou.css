@@ -61,7 +61,7 @@ h1{
 }
 
 .moreMusicNPic-container{
-    border: 8px dashed rgba(80, 38, 4, 0.836);
+    border: 8px ridge rgba(80, 38, 4, 0.836);
     border-radius: 4px;
     width: 30em;
     display:flex;
@@ -74,7 +74,7 @@ h1{
 }
 .moreMusicText{
     
-    border: 3px solid rgb(59, 33, 3);
+    border: 3px dotted rgb(59, 33, 3);
     border-radius:8px;
 }
 
@@ -107,6 +107,6 @@ width:5em;;
     width:5em;;
     }
     
-    .topPage:hover {
+.topPage:hover {
         background-color:rgb(150, 88, 13);
     }

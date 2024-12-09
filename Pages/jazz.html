@@ -20,7 +20,18 @@
             align-items: center;
 
         }
+        caption{
+            border: 2px solid beige;
+            width:100px;
+            background-color:rgb(218, 209, 88);
+            border-radius: 5px;
+            /* padding-top:15px; */
+            margin-left:20em;
+            position:relative;
+            bottom:15px;
+            
 
+        }
         .moreMusic {
             border: 2px solid black;
             width: 15rem;
@@ -87,6 +98,25 @@
             margin-left:10px;
             
         } 
+        .logOff{
+background-color:bisque;
+width:5em;;
+}
+
+.logOff:hover {
+    background-color:rgb(150, 88, 13);
+
+}
+
+.topPage{
+    background-color:bisque;
+    width:5em;;
+    }
+    
+.topPage:hover {
+        background-color:rgb(150, 88, 13);
+    }
+
     </style>
 </head>
 
@@ -119,11 +149,13 @@
             <caption>
                 <STRONG> JAZZ SONGS</STRONG>
             </caption>
+            <br>
             <thead>
                 <tr>
                     <th>SONG</th>
                     <th>ARTIST</th>
                     <th>RELEASE YEAR</th>
+                    <th>CLASS</th>
                 </tr>
             </thead>
             <tbody>
@@ -131,34 +163,40 @@
                     <td>You’ll Never Walk Alone </td>
                     <td>Aretha Franklin</td>
                     <td>1972</td>
+                    <td>Vocal</td>
 
 
                 </tr>
                 <tr>
-
-                    <td>Chick Corea-Smooth Jazz All Stars</td>
                     <td>Great Is Your Mercy</td>
+                    <td>Chick Corea-Smooth Jazz All Stars</td>
                     <td>2021</td>
+                    <td>Instrumental</td>
+                    
                 </tr>
                 <tr>
-                    <td>Mary Lou Williams-Smooth Jazz All Stars</td>
                     <td>Depend On You</td>
+                    <td>Mary Lou Williams-Smooth Jazz All Stars</td>
                     <td>2021</td>
+                    <td>Instrumental</td>
                 </tr>
                 <tr>
-                    <td>Kenny Garret</td>
                     <td>Dear Lord</td>
+                    <td>Kenny Garret</td>
                     <td>1996</td>
+                    <td>Vocals</td>
                 </tr>
+                
             </tbody>
             <tfoot>
-                <tr>
+                <!-- <tr>
                     <td>Vocals</td>
                     <td> Instrumental</td>
                     <td> Instrumental</td>
+                    <td>Vocals</td>
 
                 </tr>
-            </tfoot>
+            </tfoot> -->
         </table>
     </div>
     <br>
@@ -185,10 +223,15 @@
     </div>
     <br>
     <br>
-    <div class="logOffNtop">
-        <a href="/Sba307Repo/Pages/loginPage.html" target="_blank">LOGOFF </a><br>
+    <div class="logOff" style="margin:10px;">
+        <strong><a href="/Sba307Repo/Pages/loginPage.html" target="_blank">LOGOFF </a><br>
 
-        <a href="#top">Top</a>
+
+    </div>
+    <div class="topPage" style="margin:10px;">
+
+
+        <a href="#top">Top</a></strong>
     </div>
     <p id="bottom"></p>
 
