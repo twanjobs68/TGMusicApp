@@ -1,0 +1,120 @@
+*{
+    margin:0;
+    padding:0;
+    /* border:box; */
+}
+
+/* background-image: linear-Gradient( to bottom,rgb(255, 191, 0),rgb(205, 127, 50),rgb(227, 150, 62)); */
+body{
+        background-image:
+        linear-gradient(to bottom, rgba(235, 185, 92, 0.726), rgb(131, 73, 7));
+    
+}
+/*position app heading*/
+h1{
+    position:relative;
+    padding:15px;
+    left:16em;
+};
+    
+
+ h3{
+    position:relative;
+    left:7.5em;
+    
+ }
+
+ .navbar {
+    overflow: hidden;
+    background-color: #3b2605;
+    font-family: Arial;
+  }
+
+  
+  
+  /* Links inside the navbar */
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: rgb(197, 142, 24);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .listDropDown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .listDropDown .listDropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: rgb(199, 137, 44);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-weight:900;
+    font-family: inherit; /* After researching added this for vertical align for mobile phones */
+    margin: 0; /* After researching added this for vertical align for mobile phones */
+  }
+  
+  /* Add a bronze background color to navbar links on hover */
+  .navbar a:hover, .listDropDown:hover .listDropbtn {
+    background-color:rgb(165, 97, 42);
+    color:black;
+  }
+  
+  /* Dropdown content (hidden by default) */
+  .listDropDown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(85, 64, 64, 0.2);
+    
+  }
+  
+  /* Links inside the dropdown */
+  .listDropDown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a tan background color to dropdown links on hover */
+  .listDropDown-content a:hover {
+    background-color: #e9c259;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .listDropDown:hover .listDropDown-content {
+    display: block;
+  }
+
+  /*add border to music selection instructions and drop down*/
+  .navAndLog-container{
+    border: 5px solid black;
+    border-radius:6px;
+    height:7em;
+    width:35em;
+    position:relative;
+    left:30em;
+  }
+ 
+  /* change font size of login characters*/
+  .logOff{
+    font-size: 22px;
+    width:4em;
+    height:4em;
+    
+  }
+
+  .logOff:hover{
+    background-color: tan;
+  }

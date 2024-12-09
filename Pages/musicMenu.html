@@ -1,39 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu of Music</title>
+    <link rel="stylesheet" href="/Sba307Repo/styles/musicMenu.css">
 </head>
+
 <body>
-    <!--DECORATE BODY AND DROP DOWN BOXES-->
 
-    <H1>TG's Music App-Selection Page</H1>
-    <!--<h3><a href="./musicMenu.html" target="_blank">SELECT GENRE</a> GET MUSIC AND DISPLAY ON DISPLAY PAGE-->
-    <!--DROP DOWN MENU TO SELECT-->
-    <!--- make list hoverable-->
+    <div class="genreNav-container">
+        <!--DECORATE BODY AND DROP DOWN BOXES-->
+        <u>
+            <h1>TG's Music App-Selection Page</h1><br>
+        </u>
+    </div>
 
-    <!-- <ul>
-        <li>JAZZ</li> WHEN THIS IS CLICKED ON A LIST OF MUSIC SHOULD DISPLAY ON DISPLAY MUSIC PAGE
-        <li>GOSPEL</li>
-        <li>R&B</li>
-        
-    </ul> -->
-    <div class="genreDropdown-container1">
-    <nav>
-    <div class="gendropdown-content">
-        <button class="dropbtn">Please Select a Genre</button>
-        <div class="dropdown-content">
-          <a href="/Sba307Repo/Pages/jazz.html">JAZZ</a>
-          <a href="/Sba307Repo/Pages/gospel.html">GOSPEL</a>
-          <a href="/Sba307Repo/Pages/rNb.html">R&B</a>
+    <!-- create a Nav bar with a dropdown menu for selecting Genre -->
+    <!--container for nav list and selection button-->
+    <div class="navAndLog-container">
+        <h3 style="color:rgb(88, 59, 4);">Please Click on "Genre" and Select an option</h3>
+
+        <div class="navbar">
+            <div class="listDropDown">
+                <button class="listDropbtn">GENRE
+                    <i class="fa fa-caret-down">
+                </button>
+                <div class="listDropDown-content">
+                    <a href="/Sba307Repo/Pages/jazz.html">JAZZ</a>
+                    <a href="/Sba307Repo/Pages/gospel.html">GOSPEL</a>
+                    <a href="/Sba307Repo/Pages/rNb.html">R&B</a>
+                </div>
+            </div>
         </div>
-      </div>
-    </nav>
-</div>
+        <br>
+        <br>
 
-
-    <!-- <h3><a href="/Sba307Repo/Pages/displayMusic.html" target="_blank">MENU</a> -->
-    <p>  <strong><h3><a href="/Sba307Repo/Pages/loginPage.html" target="_blank">LOGOFF</a></h3></p>
+    </div>
+    
+    <div class="logOff">
+        <p> <strong>
+                <a href="/Sba307Repo/Pages/loginPage.html" target="_blank">LOGOFF</a>
+        </p>
+    </div>
 </body>
+
 </html>

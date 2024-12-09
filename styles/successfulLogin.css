@@ -43,6 +43,23 @@ body {
     
 }
 
+.loginHeading{
+   
+    border:5px dashed rgb(19, 18, 16);
+    background-color: orange;
+    border-radius: 5px;
+    display:flex;
+    width: 12em;
+    height: 2em;
+    justify-content: center; 
+    align-items:center;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    left:6.5em;
+}
+
 /* Style the Congratulations heading */
 h1 {
     margin-bottom: 20px;
